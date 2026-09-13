@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практична робота №1 - Розклад</title>
+    <!-- Шлях до CSS виходить на один рівень вгору (..) у папку css -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Розклад занять групи (Вересень 2026)</h1>
+        <a href="../index.html" style="color: white;">← Повернутися на головну</a>
+    </header>
+
+    <main>
+        <h2>Поточний розклад</h2>
+        <!-- Таблиця -->
+        <table>
+            <thead>
+                <tr>
+                    <th>День тижня</th>
+                    <th>Номер пари</th>
+                    <th>Час</th>
+                    <th>Дисципліна</th>
+                    <th>Викладач</th>
+                    <th>Аудиторія / Посилання</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Приклад об'єднання комірок для дня тижня за допомогою rowspan -->
+                <tr>
+                    <td rowspan="3">Понеділок</td>
+                    <td>1</td>
+                    <td>08:30 - 10:05</td>
+                    <td>Укр-мова</td>
+                    <td>Тіщен І.І.</td>
+                    <td>Ауд. 101</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>10:20 - 11:55</td>
+                    <td>Вища математика</td>
+                    <td>Волобуев П.П.</td>
+                    <td>Ауд. 204</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>12:10 - 13:45</td>
+                    <td>Основи програмування (С++)</td>
+                    <td>Тополя С.С.</td>
+                    <td>Ауд. 315</td>
+                </tr>
+                
+                <tr>
+                    <td rowspan="2">Вівторок</td>
+                    <td>1</td>
+                    <td>08:30 - 10:05</td>
+                    <td>Іноземна мова</td>
+                    <td>Коваленко О.В.</td>
+                    <td>Ауд. 410</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>10:20 - 11:55</td>
+                    <td>Фізика</td>
+                    <td>Мельник М.М.</td>
+                    <td>Ауд. 112</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
