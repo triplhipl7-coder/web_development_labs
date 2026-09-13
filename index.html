@@ -2,12 +2,57 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>Список лабораторних робіт</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Особистий веб-сайт Олексія Фокіна</title>
+    <!-- Підключення CSS стилів  -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Веб-розробка: Лабораторні роботи</h1>
-    <ul>
-        <li><a href="lab1.html">Лабораторна робота №1: Основи HTML</a></li>
-    </ul>
+    <header>
+        <h1>Особистий веб-сайт Олексія Фокіна</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="#about">Про мене</a></li>
+                <li><a href="#practices">Практичні роботи</a></li>
+                <li><a href="#labs">Лабораторні заняття</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Про мене</h2>
+            <img src="images/photo.jpg" alt="Фото Олексія Фокіна" width="200">
+            <p><strong>Ім'я:</strong> Олексій Фокін</p>
+            <p><strong>Спеціальність:</strong> Інженерія програмного забезпечення, ДУІКТ</p>
+            <p><strong>Контакти:</strong> tvoy_email@gmail.com</p>
+            <p><strong>Біографія:</strong> Студент, який захоплюється програмуванням на C++, Python та C#. Вивчаю веб-розробку та створюю власні проєкти.</p>
+        </section>
+
+        <section id="practices">
+            <h2>Практичні роботи</h2>
+            <ul>
+                <!-- Посилання веде у папку practices -->
+                <li><a href="practices/practice1.html">Практична робота №1</a> - Розклад занять на місяць</li>
+            </ul>
+        </section>
+
+        <section id="labs">
+            <h2>Лабораторні заняття</h2>
+            <ul>
+                <!-- Посилання на лабораторну-->
+                <li><a href="lab1.html">Лабораторна робота №1</a> - Основи HTML (Форма реєстрації)</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>Контакти: triplhipl7@gmail.com</p>
+        <p>Соціальні мережі: <a href="#">Telegram</a> | <a href="#">Instagram</a></p>
+        <p>Роки навчання: 2025-2029</p>
+        <p>GitHub репозиторій: <a href="https://github.com/triplhipl7-coder/web_development_labs">web_development_labs</a></p>
+    </footer>
 </body>
 </html>
