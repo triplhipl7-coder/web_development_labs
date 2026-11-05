@@ -54,3 +54,41 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
+/* Стилізація форми з лабораторної роботи №1 (Практична №2) */
+form {
+    background-color: #f9f9f9;
+    color: #333333;
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin: 40px auto;
+    box-sizing: border-box;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+form button, form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+form button:hover, form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
